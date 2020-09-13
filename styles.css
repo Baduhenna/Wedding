@@ -1,12 +1,14 @@
 h1 {text-align: center;}
-p {text-align: center;}
+p {text-align: left;}
+h2 {text-align: center;}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 body {
-    background-color:#722f37;
+    background-color:#FFF8E3;
+    color: #00008c;
     padding: 0;
     margin: 0;
 }
@@ -23,9 +25,9 @@ body {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #990033;
 }
 
 .tab {
@@ -34,9 +36,10 @@ body {
 }
 
 .tab.active {
-    background-color: #CCC;
+    background-color: #FFF8E3;
 }
 
 .tab:hover {
-    background-color: #AAA;
+    background-color: #990033;
+    color: #cce6ff;
 }
