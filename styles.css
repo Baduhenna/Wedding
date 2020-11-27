@@ -9,6 +9,7 @@ img {
     height: 100%;
 }
 body {
+    background-image: url("./photos/Copy.jpg");
     background-color:#FFF1e3;
     color: #0e125a;
     padding: 150px;
